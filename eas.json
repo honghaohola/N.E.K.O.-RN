@@ -13,7 +13,6 @@
     },
     "preview": {
       "distribution": "internal",
-      "npmClientCommand": "npm install --legacy-peer-deps",
       "env": {
         "NODE_ENV": "production"
       },
@@ -23,7 +22,6 @@
     },
     "production": {
       "distribution": "internal",
-      "npmClientCommand": "npm install --legacy-peer-deps",
       "env": {
         "NODE_ENV": "production"
       },
@@ -36,3 +34,4 @@
     "production": {}
   }
 }
+
