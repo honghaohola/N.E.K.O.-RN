@@ -1,5 +1,4 @@
-
-  {
+{
   "cli": {
     "version": ">= 16.19.3",
     "appVersionSource": "remote"
@@ -30,5 +29,8 @@
         "buildType": "apk"
       }
     }
+  },
+  "submit": {
+    "production": {}
   }
 }
