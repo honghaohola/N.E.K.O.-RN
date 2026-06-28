@@ -2,15 +2,23 @@
   "cli": {
     "version": ">= 16.19.3",
     "appVersionSource": "remote"
-  },
+{
   "build": {
-    "development": {
-      "developmentClient": true,
-      "distribution": "internal",
-      "android": {
-        "buildType": "apk"
-      }
+    "production": {
+      "packageManager": "npm",
+      "node": "20.19.0"
     },
+    "preview": {
+      "packageManager": "npm",
+      "node": "20.19.0"
+    },
+    "development": {
+      "packageManager": "npm",
+      "node": "20.19.0"
+    }
+  }
+}
+
     "preview": {
       "distribution": "internal",
       "env": {
