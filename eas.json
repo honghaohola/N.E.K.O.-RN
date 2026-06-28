@@ -22,7 +22,7 @@
       }
     },
     "production": {
-      "autoIncrement": true,
+      "distribution": "internal",
       "env": {
         "NODE_ENV": "production"
       },
@@ -30,8 +30,5 @@
         "buildType": "apk"
       }
     }
-  },
-  "submit": {
-    "production": {}
   }
 }
